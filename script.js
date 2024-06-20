@@ -1,10 +1,10 @@
 function shortcut(s1, s2) {
   // your code here
-    if (str1 === '' || str2 === '') {
+    if (s1 === '' || s2 === '') {
         return '';
     }
     
-    return str1.charAt(0) + str2.charAt(0);
+    return s1.charAt(0) + s2.charAt(0);
 }
 
 // Do not change the code below.
